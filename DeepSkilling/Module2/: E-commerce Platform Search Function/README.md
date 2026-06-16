@@ -1,58 +1,46 @@
-# Singleton Pattern Example
+# E-Commerce Application
 
-## Project Name
-SingletonPatternExample
+## Project Overview
 
-## Objective
-To implement the Singleton Design Pattern in Java and ensure that only one instance of the Logger class exists throughout the application lifecycle.
+The E-Commerce Application is a Java-based system designed to simulate an online shopping platform. The application allows users to browse products, add items to a shopping cart, place orders, and manage customer information efficiently.
 
-## Files in the Project
+## Features
 
-### 1. Logger.java
+* Product Management
+* Customer Registration and Login
+* Shopping Cart Functionality
+* Order Processing
+* Payment Management
+* Inventory Tracking
+* User-Friendly Interface
 
-Purpose:
-The Logger class implements the Singleton Pattern and provides a centralized logging utility.
+## Technologies Used
 
-Features:
-- Private static instance variable.
-- Private constructor to prevent object creation from outside the class.
-- Public static getInstance() method to access the single instance.
-- log() method to display log messages.
+* Java
+* Object-Oriented Programming (OOP)
+* Visual Studio Code
+* Java Development Kit (JDK)
 
-Responsibilities:
-- Stores the single instance of Logger.
-- Prevents external object creation.
-- Returns the same Logger object whenever requested.
-- Displays log messages.
+## Project Structure
 
-### 2. SingletonTest.java
+* Product.java – Handles product details.
+* Customer.java – Stores customer information.
+* Cart.java – Manages shopping cart operations.
+* Order.java – Processes customer orders.
+* Payment.java – Handles payment transactions.
+* Main.java – Executes the application.
 
-Purpose:
-Tests the Singleton implementation by obtaining multiple references to the Logger object and verifying that they point to the same instance.
+## Objectives
 
-Features:
-- Creates two Logger references.
-- Calls the logging method.
-- Compares object references.
-- Displays hash codes to prove only one object exists.
+* To understand Object-Oriented Programming concepts.
+* To implement design patterns and reusable code.
+* To simulate real-world e-commerce operations.
+* To improve Java programming skills.
 
-Responsibilities:
-- Gets Logger instances using getInstance().
-- Verifies that both references point to the same object.
-- Prints messages to demonstrate Singleton behavior.
+## Expected Outcome
 
-## Expected Output
-
-Logger instance created.
-LOG: Application started.
-LOG: Processing data.
-Only one Logger instance exists.
-Logger1 HashCode: XXXXXXXX
-Logger2 HashCode: XXXXXXXX
-
-Note:
-The hash code values may vary on different systems, but both values should be identical.
+The application enables users to browse products, add products to a cart, place orders, and manage transactions in an organized and efficient manner.
 
 ## Conclusion
 
-The Singleton Pattern was successfully implemented using the Logger class. The application ensures that only one Logger object is created and shared throughout the program. This provides consistent logging and efficient resource usage.
+This project demonstrates the implementation of an e-commerce system using Java. It provides practical experience in software development, object-oriented design, and application management.
