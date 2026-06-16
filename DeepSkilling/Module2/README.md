@@ -1,47 +1,48 @@
-
-# Finance Management System
+# Data Structure Management System
 
 ## Project Overview
 
-The Finance Management System is a Java-based application designed to help users manage their financial activities efficiently. The system allows users to track income, expenses, savings, and financial transactions while maintaining accurate records and generating useful financial reports.
+The Data Structure Management System is a Java-based project designed to demonstrate the implementation and application of various data structures. The system helps users understand how data can be organized, stored, and processed efficiently using different data structures.
 
 ## Features
 
-* Income Management
-* Expense Tracking
-* Budget Planning
-* Financial Reports
-* Transaction History
-* User Account Management
-* Secure Data Handling
+* Array Operations
+* Linked List Implementation
+* Stack Operations
+* Queue Operations
+* Searching Algorithms
+* Sorting Algorithms
+* Data Insertion and Deletion
 
 ## Technologies Used
 
 * Java
 * Object-Oriented Programming (OOP)
+* Data Structures and Algorithms
 * Visual Studio Code
 * Java Development Kit (JDK)
 
 ## Project Structure
 
-* User.java – Manages user information.
-* Transaction.java – Records financial transactions.
-* Income.java – Handles income details.
-* Expense.java – Manages expense records.
-* Report.java – Generates financial summaries and reports.
+* ArrayDemo.java – Demonstrates array operations.
+* LinkedListDemo.java – Implements linked list operations.
+* StackDemo.java – Demonstrates stack functionality.
+* QueueDemo.java – Demonstrates queue functionality.
+* Search.java – Implements searching algorithms.
+* Sort.java – Implements sorting algorithms.
 * Main.java – Executes the application.
 
 ## Objectives
 
-* To develop a finance management solution using Java.
-* To apply Object-Oriented Programming concepts.
-* To manage financial records efficiently.
-* To improve programming and software development skills.
+* To understand fundamental data structures.
+* To implement data structures using Java.
+* To analyze the efficiency of different operations.
+* To improve problem-solving and programming skills.
 
 ## Expected Outcome
 
-The system enables users to record income and expenses, monitor financial activities, generate reports, and make better financial decisions through organized data management.
+The system allows users to perform operations on different data structures and understand their behavior, efficiency, and real-world applications.
 
 ## Conclusion
 
-This project demonstrates the implementation of a Finance Management System using Java. It provides practical experience in financial record management, software design, and object-oriented programming principles.
+This project demonstrates the practical implementation of data structures in Java and provides a strong foundation for learning algorithms and software development concepts.
